@@ -1,0 +1,54 @@
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 40px;
+  margin-right: 5px;
+}
+
+.text-trim {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 200px;
+}
+
+.box {
+  margin: 83px 550px auto;
+}
+.containers {
+  margin-top: 50px; 
+}
+
+.contact {
+  margin-left: 100px;
+}
+
+.world {
+  max-width: 500px;
+  height: 550px;
+}
+
+.drop {
+  width: max-content;
+}
+
+.element-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.comment {
+  resize: none;
+  height: 150px;
+}
+
+@media screen and (min-width: 480px) {
+  .mern {
+    height: 60vh;
+    width: 80%;
+  }
+}
